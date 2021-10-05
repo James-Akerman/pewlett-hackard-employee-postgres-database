@@ -1,7 +1,7 @@
 # sql-challenge
 
 ## Importing Data
-Please import the data to the tables in the following order:
+Please populate the database tables in the following order:
 - departments
 - titles
 - employees
