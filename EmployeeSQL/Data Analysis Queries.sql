@@ -2,12 +2,12 @@
 -- 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
 SELECT e.emp_no AS "employee number", e.last_name AS "last name", e.first_name AS "first name", e.sex, s.salary
 FROM employees e
-join salaries s ON e.emp_no = s.emp_no;
+JOIN salaries s ON e.emp_no = s.emp_no;
 
 -- 2. List first name, last name, and hire date for employees who were hired in 1986.
 SELECT first_name AS "first name", last_name AS "last name"
 FROM employees
-WHERE hire_date LIKE '%/1986';
+WHERE EXTRACT(YEAR FROM hire_date) = 1986;
 
 -- 3. List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name.
 SELECT d.dept_no AS "department number", d.dept_name AS "department name", e.emp_no AS "employee number", e.last_name AS "last name", e.first_name AS "first name"
