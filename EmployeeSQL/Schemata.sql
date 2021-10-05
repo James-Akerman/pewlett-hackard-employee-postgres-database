@@ -59,8 +59,8 @@ CREATE TABLE salaries (
 -- i) Each row's primary key is a unique combination of each employee's id and department number.
 -- ii) Every department manager record belongs to one department and one employee.
 CREATE TABLE dept_manager (
+	dept_no VARCHAR NOT NULL,
     emp_no INT NOT NULL,
-    dept_no VARCHAR NOT NULL,
 	PRIMARY KEY (emp_no, dept_no),
 	FOREIGN KEY(emp_no) REFERENCES employees(emp_no),
 	FOREIGN KEY(dept_no) REFERENCES departments (dept_no)
@@ -79,4 +79,4 @@ CREATE TABLE dept_emp (
 );
 
 -- CHANGE THE DATE STYLE TO MATCH THE DATA
-SET DATESTYLE = 'ISO,MDY'
+SET DATESTYLE = 'ISO,MDY'ALTER DATABASE "Employees" SET datestyle TO "ISO, MDY"; 

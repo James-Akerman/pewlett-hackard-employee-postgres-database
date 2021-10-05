@@ -25,8 +25,8 @@ salary INT PK
 
 dept_manager
 -
-emp_no INT PK FK 0- employees.emp_no
 dept_no VARCHAR PK FK >- departments.dept_no
+emp_no INT PK FK 0- employees.emp_no
 
 dept_emp
 -
