@@ -4,10 +4,9 @@ Please name the database "Employees"
 
 ## Importing Data
 Please populate the database tables in the following order:
-- departments
 - titles
+- departments
 - employees
 - salaries
-- dept_emp
 - dept_manager
-
+- dept_emp
