@@ -8,7 +8,7 @@ JOIN salaries s ON e.emp_no = s.emp_no;
 
 
 -- 2. List first name, last name, and hire date for employees who were hired in 1986.
-SELECT first_name AS "first name", last_name AS "last name", hire_date AS "hire date"
+SELECT first_name AS "first name", last_name AS "last name", TO_CHAR(hire_date :: DATE, 'dd/mm/yyyy') AS "hire date"
 FROM employees
 WHERE EXTRACT(YEAR FROM hire_date) = 1986
 ORDER BY "first name", "last name"; -- (List results by first name then by last name to present them better).
