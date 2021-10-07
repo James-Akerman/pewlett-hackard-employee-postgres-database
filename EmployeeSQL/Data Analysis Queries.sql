@@ -15,7 +15,7 @@ ORDER BY "first name", "last name"; -- (List results by first name then by last 
 
 
 -- 3. List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name.
-SELECT d.dept_no AS "department number", d.dept_name AS "department name", dp.emp_no AS "managers employee number", e.last_name AS "last name", e.first_name AS "first name"
+SELECT d.dept_no AS "department number", d.dept_name AS "department name", dp.emp_no AS "manager''s employee number", e.last_name AS "last name", e.first_name AS "first name"
 FROM departments d
 JOIN dept_manager dp ON dp.dept_no = d.dept_no
 JOIN employees e ON e.emp_no = dp.emp_no;
