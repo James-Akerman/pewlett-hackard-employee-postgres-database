@@ -1,8 +1,10 @@
 # sql-challenge
-## Naming the Database
+
+## Developer Instructions
+### Naming the Database
 Please name the database "Employees"
 
-## Importing Data
+### Importing Data
 Please populate the database tables in the following order:
 - titles
 - departments
