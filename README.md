@@ -2,10 +2,10 @@
 Creates a PostgreSQL database for the hypothetical company Pewlett Hackard and runs queries on employee demographics.
 
 #### Table schemata
-[schemata](images/schemata.PNG)
+![schemata](images/schemata.PNG)
 
 #### Queries
-[queries](images/queries.PNG)
+![queries](images/queries.PNG)
 
 <br>
 
