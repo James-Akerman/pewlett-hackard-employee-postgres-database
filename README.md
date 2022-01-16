@@ -27,4 +27,4 @@ Creates a PostgreSQL database for the hypothetical company Pewlett Hackard and r
   - salaries
   - dept_manager
   - dept_emp
-- Open the EmployeeSQL folder in the repository and run the [Data Analysis Queries SQL file](EmployeeSQL/Data-Analysis-Queries.sqk) in the database to create the database schemata.
+- Open the EmployeeSQL folder in the repository and run the [Data Analysis Queries SQL file](EmployeeSQL/Data-Analysis-Queries.sql) in the database to create the database schemata.
