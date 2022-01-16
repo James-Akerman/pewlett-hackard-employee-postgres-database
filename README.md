@@ -1,10 +1,13 @@
 # Pewlett Hackard Employee Postgres Database
 
+<br>
 
 ## Tools/Packages
 - SQL
 - PostgreSQL
 - pgAdmin
+
+<br>
 
 ## How to run
 - Download the respository
