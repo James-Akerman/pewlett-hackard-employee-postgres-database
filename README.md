@@ -1,4 +1,6 @@
 # Pewlett Hackard Employee Postgres Database
+
+## Overview of the Project
 Creates a PostgreSQL database for the hypothetical company Pewlett Hackard and runs queries on employee demographics.
 
 #### Table schemata
