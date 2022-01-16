@@ -19,7 +19,7 @@ Creates a PostgreSQL database for the hypothetical company Pewlett Hackard and r
 ## How to run
 - Download the respository
 - Open pgAdmin (for PostgreSQL) and create database named **Employees**
-- Open the EmployeeSQL folder in the repository and run the [Schemata file](EmployeeSQL/Schemata.SQL) in the database to create the database tables.
+- Open the EmployeeSQL folder in the repository and run the [Schemata file](EmployeeSQL/Schemata.sql) in the database to create the database tables.
 - Populate the database tables in the following order using data from the [data](EmployeeSQL/extra material/data) folder:
   - titles
   - departments
@@ -27,4 +27,4 @@ Creates a PostgreSQL database for the hypothetical company Pewlett Hackard and r
   - salaries
   - dept_manager
   - dept_emp
-- Open the EmployeeSQL folder in the repository and run the [Data Analysisi Queries SQL file](EmployeeSQL/Data-Analysis-Queries.SQL) in the database to create the database schemata.
+- Open the EmployeeSQL folder in the repository and run the [Data Analysis Queries SQL file](EmployeeSQL/Data-Analysis-Queries.sqk) in the database to create the database schemata.
