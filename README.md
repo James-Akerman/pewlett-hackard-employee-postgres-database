@@ -11,7 +11,7 @@ Creates a PostgreSQL database for the hypothetical company Pewlett Hackard and r
 
 <br>
 
-## Tools/Packages
+## Tools/Packages used
 - SQL
 - PostgreSQL
 - pgAdmin
